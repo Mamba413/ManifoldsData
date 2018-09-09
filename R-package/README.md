@@ -19,5 +19,6 @@ install_github(repo = "Mamba413/ManifoldsData/R-package")
 Load polyhedral3D projective shape data:
 
 ``` r
+library(manifoldsData)
 data(polyhedral3D)
 ```
