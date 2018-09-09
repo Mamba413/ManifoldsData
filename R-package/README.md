@@ -2,6 +2,8 @@ manifoldsData
 ---
 Jin Zhu
 
+## Introduction
+
 The goal of manifoldsData is to provide a user-friendly API to obtain the manifolds datasets in the textbook "Nonparametric Statistics on Manifolds and Their Applications to Object Data Analysis".
 
 ## Installation
