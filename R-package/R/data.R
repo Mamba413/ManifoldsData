@@ -20,3 +20,23 @@
 #' }
 #'
 NULL
+
+
+
+#' @title skull data
+#' @name skullnormal
+#' @docType data
+#' @description
+#' A skull data include 124 records about the landmark of skull and demographics of healthy samples.
+#'
+#' @references
+#' Patrangenaru, Victor, and Leif Ellingson. Nonparametric statistics on manifolds and their applications to object data analysis. CRC Press, 2015.
+#'
+#' @format
+#' \itemize{
+#' \code{skullnormal$x}: A data frame includes the landmark of skull
+#'
+#' \code{skullnormal$y}: A data frame includes the demographics such as months and gender.
+#' }
+#'
+NULL
