@@ -40,7 +40,7 @@ save(stereoONH, file = paste0(save_path, "stereoONH.rda"))
 # wind
 library(circular)
 windc <- circular(wind)
-plot(windc, cex=1.5, bin=720, stack=TRUE, sep=0.035, shrink=1.3)
+plot(windc, cex = 1.5, bin = 720, stack = TRUE, sep = 0.035, shrink = 1.3)
 
 # orbit
 orbit <- read.table("orbit.txt", header = 1, row.names = 1)
@@ -50,7 +50,7 @@ save(orbit, file = paste0(save_path, "orbit.rda"))
 skullnormal <- read.table("skullnormal.txt", header = 1)
 end_index1 <- which(skullnormal[["Id.months.gender"]] == "2406-168-2")
 end_index2 <- which(skullnormal[["Id.months.gender"]] == "2802-168-1")
-y <- rbind(cbind(skullnormal[1:end_index1[1], ], skullnormal[(end_index1[1]+1): end_index1[2], -1]), 
+y <- rbind(cbind(skullnormal[1:end_index1[1], ], skullnormal[(end_index1[1]+1): end_index1[2], -1]),
            cbind(skullnormal[(end_index1[2] + 1):end_index2[1], ], skullnormal[(end_index2[1]+1): end_index2[2], -1]))
 
 data_list <- list()
@@ -75,7 +75,7 @@ data_list[["proteinC"]] <- acidproteinase[99:nrow(acidproteinase), ]
 acidproteinase <- data_list
 save(acidproteinase, file = paste0(save_path, "acidproteinase.rda"))
 
-# 
+#
 polyhedral3D <- read.table("polyhedral3D.txt")
 polyhedral3D[, 1] <- NULL
 y <- lapply(split(polyhedral3D, f = as.factor(rep(1:32, each = 2))), function(x) {
