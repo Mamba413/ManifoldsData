@@ -5,9 +5,9 @@
 \alias{skullnormal}
 \title{skull data}
 \format{\itemize{
-\code{skullnormal$x}: A data frame include the landmark of skull
+\code{skullnormal$x}: A data frame includes the landmark of skull
 
-\code{skullnormal$y}: A data frame include the demographics such as months and gender.
+\code{skullnormal$y}: A data frame includes the demographics such as months and gender.
 }}
 \description{
 A skull data include 124 records about the landmark of skull and demographics of healthy samples.

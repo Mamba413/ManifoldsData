@@ -40,3 +40,37 @@ NULL
 #' }
 #'
 NULL
+
+
+#' @title stereo image data
+#' @name stereoONH
+#' @docType data
+#' @description
+#'
+#'
+NULL
+
+
+#' @title 3D polyhedral projective shape data
+#' @name polyhedral3D
+#' @docType data
+#' @description
+#'
+NULL
+
+
+#' @title DTI dyslexia data
+#' @name dyslexia
+#' @docType data
+#' @description
+#'
+NULL
+
+#' @title 3D acid proteinase shape data
+#' @name acidproteinase
+#' @docType data
+#' @description
+#'
+NULL
+
+
